@@ -45,7 +45,30 @@ Então, quando alguém compra um NFT, essa pessoa possui a propriedade do item e
       <p>© 2023 Blog do Claueder Barros. Todos os direitos reservados.</p>
     </footer>
     
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBlJ59cN_UgmluN8Q38f2A8_FqdRVmTvNk",
+    authDomain: "site-claueder-barros.firebaseapp.com",
+    projectId: "site-claueder-barros",
+    storageBucket: "site-claueder-barros.appspot.com",
+    messagingSenderId: "541974575679",
+    appId: "1:541974575679:web:91169f6a737f1c733b168a",
+    measurementId: "G-3EWSKJR5PN"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+  
   </body>
 </html>
 
