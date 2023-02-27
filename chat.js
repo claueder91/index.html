@@ -11,7 +11,7 @@ sendButton.addEventListener('click', () => {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            'Authorization': 'Bearer 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'
         },
         body: JSON.stringify({
             prompt: userMessage,
